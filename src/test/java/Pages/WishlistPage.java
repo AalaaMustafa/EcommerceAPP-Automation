@@ -1,0 +1,17 @@
+package Pages;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+public class WishlistPage {
+    WebDriver driver;
+
+    public WishlistPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver,this);
+    }
+
+    public int WishListItems(){
+        int size = driver.findElements(By.cssSelector("div[class=\"wishlist-content\"]")).size();
+        return size;
+    }
+}

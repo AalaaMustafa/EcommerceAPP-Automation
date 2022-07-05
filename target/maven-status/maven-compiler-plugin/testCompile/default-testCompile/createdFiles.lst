@@ -1,0 +1,16 @@
+StepDefinition\D05_HoverCategories.class
+StepDefinition\D03_ChangeCurrency.class
+StepDefinition\D07_FollowUsStepDef.class
+Pages\CategoryPage.class
+Pages\RegisterationPage.class
+StepDefinition\D06_HomeSliders.class
+Pages\HomePage.class
+Pages\SearchPage.class
+Pages\WishlistPage.class
+StepDefinition\D01_Register.class
+StepDefinition\Hooks.class
+Pages\LoginPage.class
+StepDefinition\D02_Login.class
+StepDefinition\D04_Search.class
+Runners\TestRunner.class
+StepDefinition\D08_WishList.class
